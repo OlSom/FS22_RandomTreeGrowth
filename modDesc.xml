@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="75">
+    <author>OlSom</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Random Tree Growth</en>
+    </title>
+    <description>
+        <en><![CDATA[
+            Trees stop growing randomly for a better looking forest
+        ]]></en>
+    </description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="RandomTreeGrowth.lua"/>
+    </extraSourceFiles>
+
+    <actions>
+        <action name="ROTATABLE_CAMERA_TOGGLE" axisType="HALF"/>
+        <action name="ROTATABLE_CAMERA_RESET" axisType="HALF"/>
+    </actions>
+
+    <l10n>
+        <text name="input_ROTATABLE_CAMERA_TOGGLE">
+            <en>Toggle camera rotation</en>
+        </text>
+        <text name="input_ROTATABLE_CAMERA_RESET">
+            <en>Reset camera rotation</en>
+        </text>
+    </l10n>
+</modDesc>
